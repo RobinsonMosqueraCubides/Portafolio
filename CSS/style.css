@@ -153,3 +153,21 @@ a, p ,span {
     width: 4rem;
     height: 4rem;
   }
+  .main .skills .figureProyect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 4rem;
+    margin: 2rem 0;
+  }
+  .main .skills .figureProyect .imgProyect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main .skills .figureProyect img{
+    width: 4rem;
+    height: 4rem;
+  }
