@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(1.2rem,4vw,1.8rem);
+    font-size: clamp(1rem,4vw,2.2rem);
     color: var(--heading-color);
 }
 
@@ -31,7 +31,7 @@ h3 {
 }
 
 a, p ,span {
-    font-size: clamp(0.6rem,4vw,1rem);
+    font-size: clamp(1rem,4vw,1.5rem);
     text-decoration: none;
     color: var(--text-color);
 }
@@ -44,14 +44,17 @@ a, p ,span {
     width: 100%;
     height: 100vh;
     padding-inline: 4.5rem;
+    gap: 3rem;
 }
 .aside {
-    height: 100vh;
     width: 100%;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 2rem;
+    border-radius: 10%;
+    border: 1px solid var(--text-color);
 }
 
 .aside .nav{
@@ -66,7 +69,7 @@ a, p ,span {
     position: relative;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-size: clamp(0.5rem,4vw,1rem);
+    font-size: clamp(0.8rem,4vw,1.5rem);
   }
 
   .nav a::after {
@@ -103,8 +106,10 @@ a, p ,span {
     flex-direction: column;
     gap: 1.5rem;
     overflow-y: hidden;
-    height: 100vh; 
+    height: 75vh; 
     padding: 5rem;
+    border: 1px solid var(--text-color);
+    border-radius: 10%;
   }
   .main:hover{
     overflow: auto;
@@ -139,6 +144,7 @@ a, p ,span {
     grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
     place-content: center;
     place-items: center;
+
   }
   .main .skills .figureSkills{
     display: flex;
@@ -149,25 +155,36 @@ a, p ,span {
     width: 4rem;
     margin: 2rem 0;
   }
+
   .main .skills .figureSkills img{
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
   }
-  .main .skills .figureProyect{
+  .main .proyects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+    place-content: center;
+    place-items: center;
+    gap: 3rem;
+  }
+  .main .proyects .figureProyect{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 6rem;
-    width: 4rem;
+    gap: 2rem;
+    height: 13rem;
+    width: 18rem;
     margin: 2rem 0;
+    border: 1px solid var(--background-color-alt);
+    border-radius: 5%;
   }
-  .main .skills .figureProyect .imgProyect{
+  .main .proyects .figureProyect .imgProyect{
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .main .skills .figureProyect img{
-    width: 4rem;
-    height: 4rem;
+  .main .proyects .figureProyect img{
+    width: 6rem;
+    height: 6rem;
   }
