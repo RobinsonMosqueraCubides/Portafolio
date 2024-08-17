@@ -22,9 +22,9 @@
                 </div>
             </header>
             <nav class="nav" id="nav">
-                <a href="#" class="about" id="about">Sobre mi</a>
-                <a href="#" class="service" id="service">Habilidades</a>
-                <a href="#" class="proyects" id="proyects">Proyectos</a>
+                <a href="#titleAbout" class="about" id="about">Sobre mi</a>
+                <a href="#titleSkills" class="skills" id="skills">Habilidades</a>
+                <a href="#titleProyects" class="proyects" id="proyects">Proyectos</a>
                 <a href="#" class="misionVison" id="misionVison">Mision y Vision</a>
             </nav>
             <footer class="footer" id="footer">
@@ -42,7 +42,7 @@
                 <div class="textAbout" id="textAbout"><span>La programación me permite crear soluciones innovadoras y transformar ideas en realidad. Disfruto mejorar nuestra interacción con la tecnología, y destaco en comunicación, gestión del tiempo y liderazgo en equipos ágiles. Soy autodidacta y mi enfoque detallado asegura resultados de calidad. Estoy listo para colaborar y crear soluciones tecnológicas que marquen la diferencia.</span></div>
                 <div class="photoAbout" id="photoAbout"><img src="Storage/FotoProfesional.jpeg" alt=""></div>
             </section>
-            <div class="titleSkills" id="titleAbout"><h2>Habilidades</h2></div>
+            <div class="titleSkills" id="titleSkills"><h2>Habilidades</h2></div>
             <section class="skills">
                 <figure class="figureSkills">
                     <img src="Storage/pythonIcon.png" alt="Descripción de la imagen">
@@ -77,43 +77,53 @@
                     <h3>Git/GitHub</h3>
                 </figure>                     
             </section>
-            <div class="titleSkills" id="titleAbout"><h2>Proyectos</h2></div>
+            <div class="titleProyects" id="titleProyects"><h2>Proyectos</h2></div>
             <section class="proyects">
-                <a href="https://robinsonmosqueracubides.github.io/examenHtmlCss/index.html">
+                <a href="https://github.com/RobinsonMosqueraCubides/landingPage">
                     <figure class="figureProyect">
-                        <div class="imgProyect">
-                            <img src="Storage/HTMLIcon.png" alt="Descripción de la imagen">
-                            <img src="Storage/cssIcon.png" alt="Descripción de la imagen">
+                        <h3 class="proyectName" id="proyectName">LandingPage</h3>
+                        <div class="descriptionProyect">
+                            <p>Esta página web fue creada utilizando solo HTML y CSS, con el objetivo de mostrar una lista de productos junto con sus precios. La estructura es sencilla y visualmente atractiva, permitiendo a los usuarios navegar fácilmente a través de los artículos disponibles, con detalles claros y organizados.</p>
                         </div>
-                        <p>CampusShop</p>
+                        <section class="containerProyectSkills">
+                            <div class="proyectsSkills"><h3>HTML</h3></div>
+                            <div class="proyectsSkills"><h3>CSS</h3></div>
+                        </section>
                     </figure>
                 </a>
-                <a href="https://robinsonmosqueracubides.github.io/comicWeb/">
+                <a href="https://github.com/RobinsonMosqueraCubides/comicWeb">
                     <figure class="figureProyect">
-                        <div class="imgProyect">
-                            <img src="Storage/HTMLIcon.png" alt="Descripción de la imagen">
-                            <img src="Storage/cssIcon.png" alt="Descripción de la imagen">
-                            <img src="Storage/jsIcon.png" alt="Descripción de la imagen">
+                        <h3 class="proyectName" id="proyectName">ComicWeb</h3>
+                        <div class="descriptionProyect">
+                            <p>Este proyecto consiste en una página web que lee un archivo JSON y muestra de manera dinámica la información de varios superhéroes. Los datos incluyen nombres, habilidades y características clave de cada personaje, proporcionando una visualización clara y organizada para los usuarios.</p>
                         </div>
-                        <p>WebComic</p>
+                        <section class="containerProyectSkills">
+                            <div class="proyectsSkills"><h3>HTML</h3></div>
+                            <div class="proyectsSkills"><h3>CSS</h3></div>
+                            <div class="proyectsSkills"><h3>JavaScript</h3></div>
+                        </section>
                     </figure>
                 </a>
-                <a href="https://robinsonmosqueracubides.github.io/proyectoFiltroJs/">
+                <a href="https://github.com/RobinsonMosqueraCubides/proyectoFiltroJs">
                     <figure class="figureProyect">
-                        <div class="imgProyect">
-                            <img src="Storage/HTMLIcon.png" alt="Descripción de la imagen">
-                            <img src="Storage/cssIcon.png" alt="Descripción de la imagen">
-                            <img src="Storage/jsIcon.png" alt="Descripción de la imagen">
+                        <h3 class="proyectName" id="proyectName">Dashborad</h3>
+                        <div class="descriptionProyect">
+                            <p>Este proyecto consiste en un dashboard interactivo para la gestión del inventario de una empresa, donde se controlan activos, marcas y personas asociadas. El sistema proporciona una interfaz centralizada y visual que facilita el acceso a la información del inventario en tiempo real. Para la persistencia de datos, se implementó un API utilizando JSON Server, lo que permite almacenar y gestionar la información de manera eficiente y escalable.</p>
                         </div>
-                        <p>DashBoard</p>
+                        <section class="containerProyectSkills">
+                            <div class="proyectsSkills"><h3>HTML</h3></div>
+                            <div class="proyectsSkills"><h3>CSS</h3></div>
+                            <div class="proyectsSkills"><h3>JavaScript</h3></div>
+                        </section>
                     </figure>
                 </a>
                 <a href="https://github.com/RobinsonMosqueraCubides/BBDD_ParquesNaturales.git">
                     <figure class="figureProyect">
-                        <div class="imgProyect">
-                            <img src="Storage/mysqlIcon.png" alt="Descripción de la imagen">
+                        <h3 class="proyectName" id="proyectName">BBDD ParquesNaturales</h3>
+                        <div class="descriptionProyect">
+                            <p>El Proyecto de Gestión de Parques Naturales se realiza con el fin de organizar y analizar información relacionada con los parques naturales de nuestro país. El sistema permitirá a los usuarios acceder a datos sobre visitantes, proyectos de investigación, especies, vehículos, alojamientos y más.</p>
                         </div>
-                        <p>BBDD ParquesNaturales</p>
+                        <div class="proyectsSkills"><h3>MySQL</h3></div>
                     </figure>
                 </a>
             </section>

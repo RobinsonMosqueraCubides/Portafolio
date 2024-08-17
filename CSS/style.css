@@ -9,6 +9,9 @@
     box-sizing: border-box;
     font-size: 15px;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     background-color: var(--background-color-2);
@@ -48,7 +51,7 @@ a, p ,span {
 }
 .aside {
     width: 100%;
-    height: 75vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -109,18 +112,17 @@ a, p ,span {
     flex-direction: column;
     gap: 1.5rem;
     overflow-y: hidden;
-    height: 75vh; 
+    height: 85vh; 
     padding: 5rem;
     background-color: var(--background-color); 
     box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
     border-radius: 10%;
-  }
-  .main:hover{
     overflow: auto;
     scrollbar-width: none
   }
+
   .main .about{
     display: flex;
     flex-direction: column;
@@ -176,17 +178,37 @@ a, p ,span {
   .main .proyects .figureProyect{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 2rem;
-    height: 13rem;
-    width: 18rem;
-    margin: 2rem 0;
+    width: 30rem;
+    padding: 2rem 3rem;
     background-color: var(--background-color-3); 
     box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
     border-radius: 5%;
+    text-align: justify;
+  }
+  .main .proyects .figureProyect h3{
+    color: var(--heading-color);
+    font-size: clamp(1rem,4vw,1.5rem);
+  }
+  .main .proyects .figureProyect p{
+    font-size: clamp(0.6rem,4vw,1rem);
+  }
+  .main .proyects .figureProyect .containerProyectSkills{
+    display: flex;
+    justify-content: space-around;
+  }
+  .main .proyects .figureProyect .proyectsSkills{
+    background-color: var(--background-color-alt);
+    border-radius: 10rem;
+    padding: 0 1rem;
+    width: auto;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .main .proyects .figureProyect:hover{
+    scale: 1.05;
   }
   .main .proyects .figureProyect .imgProyect{
     display: flex;
