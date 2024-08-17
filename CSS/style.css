@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: var(--background-color-2);
     width: 100%;
     height: 100vh;
 }
@@ -53,8 +53,11 @@ a, p ,span {
     flex-direction: column;
     justify-content: space-around;
     padding: 2rem;
+    background-color: var(--background-color); 
+    box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
     border-radius: 10%;
-    border: 1px solid var(--text-color);
 }
 
 .aside .nav{
@@ -108,7 +111,10 @@ a, p ,span {
     overflow-y: hidden;
     height: 75vh; 
     padding: 5rem;
-    border: 1px solid var(--text-color);
+    background-color: var(--background-color); 
+    box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
     border-radius: 10%;
   }
   .main:hover{
@@ -176,7 +182,10 @@ a, p ,span {
     height: 13rem;
     width: 18rem;
     margin: 2rem 0;
-    border: 1px solid var(--background-color-alt);
+    background-color: var(--background-color-3); 
+    box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
     border-radius: 5%;
   }
   .main .proyects .figureProyect .imgProyect{
