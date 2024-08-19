@@ -244,3 +244,14 @@ a, p ,span {
     width: 6rem;
     height: 6rem;
   }
+  .main .titleMisionVision{
+    width: 100%;
+  }
+  .main .cardMisionVision{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: auto;
+    margin: 10px;
+    text-align: justify;
+  }
