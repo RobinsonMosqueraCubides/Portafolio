@@ -86,7 +86,7 @@ a, p ,span {
     width: 0;
     height: 2px;
     background-color: var(--background-color-alt); 
-    transition: width 0.3s ease;
+    transition: width 0.5s ease;
   }
 
   .nav a:hover {
@@ -94,7 +94,7 @@ a, p ,span {
   }
 
   .nav a:hover::after {
-    width: 20%;
+    width: 100%;
   }
   .light-effect {
     position: fixed;
@@ -167,6 +167,27 @@ a, p ,span {
   .main .skills .figureSkills img{
     width: 6rem;
     height: 6rem;
+  }
+  .main .skills .figureSoftSkills .containerSoftSkills{
+      display: flex;
+      justify-content: space-around;
+      gap: 2rem;
+      width: 30rem;
+      padding: 2rem 3rem;
+      background-color: var(--background-color-3); 
+      box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
+      border-radius: 5%;
+      text-align: justify;
+  }
+  .main .skills .figureSoftSkills .containerSoftSkills .softSkills{
+      background-color: var(--background-color-alt);
+      border-radius: 10rem;
+      padding: 0 1rem;
+      width: auto;
+      display: inline-block;
+      margin: 0 auto;
   }
   .main .proyects{
     display: grid;
