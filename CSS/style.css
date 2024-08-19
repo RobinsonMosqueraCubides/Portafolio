@@ -121,7 +121,7 @@ a, p ,span {
     box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
     border-radius: 10%;
     overflow: auto;
-    scrollbar-width: none
+    scrollbar-width: none;
   }
 
   .main .about{
@@ -180,7 +180,7 @@ a, p ,span {
     grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
     place-content: center;
     place-items: center;
-    width: 50rem;
+    width: 40rem;
     gap: 3rem;
   }
   .main .containerSoftSkills .softSkills{
@@ -204,7 +204,7 @@ a, p ,span {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 50rem;
+    width: 40rem;
     padding: 2rem 3rem;
     background-color: var(--background-color-3); 
     box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
