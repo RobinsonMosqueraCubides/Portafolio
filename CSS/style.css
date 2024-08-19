@@ -130,7 +130,7 @@ a, p ,span {
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
     border-radius: 10%;
-    overflow: auto;
+    overflow-y: auto;
     scrollbar-width: none;
   }
 
@@ -294,6 +294,7 @@ a, p ,span {
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
+      overflow-x: hidden;
     }
     .main .about{
       width: 20rem;
@@ -337,7 +338,7 @@ a, p ,span {
       width: 20rem;
     }
     .main .proyects .containerProyectSkills{
-      width: 100%;
+      width: auto;
       height: auto;
     }
     .main .titleMisionVision{
@@ -347,7 +348,7 @@ a, p ,span {
       font-size: 2rem;
     }
     .main .cardMisionVision{
-      width: 20rem;
+      width: auto;
     }
   }
   @media (min-width: 601px) and (max-width: 1024px) {
