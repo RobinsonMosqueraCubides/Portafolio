@@ -156,7 +156,7 @@ a, p ,span {
     grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
     place-content: center;
     place-items: center;
-    width: 40rem;
+    width: 30rem;
   }
   .main .skills .figureSkills{
     display: flex;
@@ -180,7 +180,7 @@ a, p ,span {
     grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
     place-content: center;
     place-items: center;
-    width: 40rem;
+    width: 30rem;
     gap: 3rem;
   }
   .main .containerSoftSkills .softSkills{
@@ -204,7 +204,7 @@ a, p ,span {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 40rem;
+    width: 30rem;
     padding: 2rem 3rem;
     background-color: var(--background-color-3); 
     box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
