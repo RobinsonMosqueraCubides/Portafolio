@@ -110,6 +110,7 @@ a, p ,span {
   .main{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.5rem;
     overflow-y: hidden;
     height: 85vh; 
@@ -147,12 +148,15 @@ a, p ,span {
     overflow: hidden;
     object-fit: cover;
   }
+  .main .titleSkills{
+    width: 100%;
+  }
   .main .skills{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
     place-content: center;
     place-items: center;
-
+    width: 40rem;
   }
   .main .skills .figureSkills{
     display: flex;
@@ -168,30 +172,30 @@ a, p ,span {
     width: 6rem;
     height: 6rem;
   }
-  .main .skills .figureSoftSkills .containerSoftSkills{
-      display: flex;
-      justify-content: space-around;
-      gap: 2rem;
-      width: 30rem;
-      padding: 2rem 3rem;
-      background-color: var(--background-color-3); 
-      box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease, background-color 0.3s ease;
-      box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
-      border-radius: 5%;
-      text-align: justify;
+  .main .titleSoftSkills{
+    width: 100%;
   }
-  .main .skills .figureSoftSkills .containerSoftSkills .softSkills{
+  .main .containerSoftSkills{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,1fr));
+    place-content: center;
+    place-items: center;
+    width: 50rem;
+    gap: 3rem;
+  }
+  .main .containerSoftSkills .softSkills{
       background-color: var(--background-color-alt);
-      border-radius: 10rem;
+      border-radius: 8rem;
       padding: 0 1rem;
       width: auto;
-      display: inline-block;
       margin: 0 auto;
+  }
+  .main .titleProyects{
+    width: 100%;
   }
   .main .proyects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
     place-content: center;
     place-items: center;
     gap: 3rem;
@@ -200,13 +204,13 @@ a, p ,span {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 30rem;
+    width: 50rem;
     padding: 2rem 3rem;
     background-color: var(--background-color-3); 
     box-shadow: 08px16pxrgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
-    border-radius: 5%;
+    border-radius: 4rem;
     text-align: justify;
   }
   .main .proyects .figureProyect h3{
@@ -218,7 +222,7 @@ a, p ,span {
   }
   .main .proyects .figureProyect .containerProyectSkills{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .main .proyects .figureProyect .proyectsSkills{
     background-color: var(--background-color-alt);
