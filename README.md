@@ -1,4 +1,4 @@
-# Robinson Mosquera Portfolio
+# Robinson Mosquera Portafolio
 
 Este es el portafolio personal de Robinson Mosquera, diseñado para mostrar su trabajo y habilidades en desarrollo de software. La página web presenta información sobre proyectos, habilidades y competencias, y proporciona enlaces a redes sociales y otros recursos.
 
